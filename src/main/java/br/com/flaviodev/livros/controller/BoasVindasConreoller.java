@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BoasVindasConreoller {
 	
-	@GetMapping
+	@GetMapping("/")
 	public String BoasVindas() {
 		return "<pre>"
 				
