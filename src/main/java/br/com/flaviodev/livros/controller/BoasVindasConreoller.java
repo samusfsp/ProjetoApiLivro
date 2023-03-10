@@ -1,6 +1,5 @@
 package br.com.flaviodev.livros.controller;
 
-import org.hibernate.property.access.internal.PropertyAccessStrategyNoopImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,8 +13,8 @@ public class BoasVindasConreoller {
 				+ "Bem vindo a minha API de livros<br/>"
 				+ "Endpoints Disponiveis<br/>"
 				+ "/livro get<br/>"
-				+ "/livros/id por id<br/>"
-				+"/livros post adicionar</pre>"
+				+ "/livros/id por id<br/>";
+				
 	}
 	
 	
