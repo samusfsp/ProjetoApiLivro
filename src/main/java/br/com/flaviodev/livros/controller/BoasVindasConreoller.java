@@ -8,12 +8,14 @@ public class BoasVindasConreoller {
 	
 	@GetMapping("/")
 	public String BoasVindas() {
-		return "<pre>"
+		return "<h1>"
 				
 				+ "Bem vindo a minha API de livros<br/>"
 				+ "Endpoints Disponiveis<br/>"
 				+ "/livro get<br/>"
-				+ "/livros/id por id<br/>";
+				+ "/livro/id por id<br/>"
+				+ "/livro/busca?palavra= Por palavra<br/>"
+				+ "</h1>";
 				
 	}
 	
