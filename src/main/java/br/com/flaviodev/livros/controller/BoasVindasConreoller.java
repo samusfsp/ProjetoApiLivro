@@ -15,7 +15,7 @@ public class BoasVindasConreoller {
 				+ "Endpoints Disponiveis<br/>"
 				+ "/livro get<br/>"
 				+ "/livros/id por id<br/>"
-				+"/livros post adicionar<br/>"
+				+"/livros post adicionar</pre>"
 	}
 	
 	
